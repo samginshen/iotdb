@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="391915263"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:mqtt-example:jar:0.12.0-SNAPSHOT</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1648090182"><data key="d0"><y:ShapeNode><y:NodeLabel>org.fusesource.mqtt-client:mqtt-client:jar:1.12:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1091925703"><data key="d0"><y:ShapeNode><y:NodeLabel>org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="858132653"><data key="d0"><y:ShapeNode><y:NodeLabel>org.fusesource.hawtdispatch:hawtdispatch:jar:1.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1091925703" target="858132653"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1648090182" target="1091925703"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1169929192"><data key="d0"><y:ShapeNode><y:NodeLabel>org.fusesource.hawtbuf:hawtbuf:jar:1.10:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1648090182" target="1169929192"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="391915263" target="1648090182"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2036240117"><data key="d0"><y:ShapeNode><y:NodeLabel>junit:junit:jar:4.12:test</y:NodeLabel></y:ShapeNode></data></node>
+<node id="328690775"><data key="d0"><y:ShapeNode><y:NodeLabel>org.hamcrest:hamcrest-core:jar:1.3:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="2036240117" target="328690775"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="391915263" target="2036240117"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="280475120"><data key="d0"><y:ShapeNode><y:NodeLabel>org.mockito:mockito-all:jar:1.10.19:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="391915263" target="280475120"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="134967549"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.annotation:javax.annotation-api:jar:1.3.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="391915263" target="134967549"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="95387183"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.xml.bind:jaxb-api:jar:2.4.0-b180725.0427:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="770854681"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.activation:javax.activation-api:jar:1.2.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="95387183" target="770854681"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="391915263" target="95387183"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="13068130"><data key="d0"><y:ShapeNode><y:NodeLabel>org.glassfish.jaxb:jaxb-runtime:jar:2.4.0-b180725.0644:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1394111263"><data key="d0"><y:ShapeNode><y:NodeLabel>org.glassfish.jaxb:txw2:jar:2.4.0-b180725.0644:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="13068130" target="1394111263"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="767041877"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.istack:istack-commons-runtime:jar:3.0.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="13068130" target="767041877"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="311245180"><data key="d0"><y:ShapeNode><y:NodeLabel>org.jvnet.staxex:stax-ex:jar:1.8:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="13068130" target="311245180"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="692760632"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.xml.fastinfoset:FastInfoset:jar:1.2.14:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="13068130" target="692760632"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="391915263" target="13068130"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>

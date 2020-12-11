@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="926134772"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:flink-example:jar:0.12.0-SNAPSHOT</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1894826834"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:flink-iotdb-connector:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1318310462"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:iotdb-session:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1950052389"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:service-rpc:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1588446023"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:iotdb-thrift:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="682713491"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.thrift:libthrift:jar:0.13.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1588446023" target="682713491"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1950052389" target="1588446023"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1318310462" target="1950052389"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2028160153"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-lang:commons-lang:jar:2.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1318310462" target="2028160153"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1894826834" target="1318310462"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1467394552"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-streaming-java_2.11:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1735520170"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-shaded-guava:jar:18.0-11.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1467394552" target="1735520170"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1148172078"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.commons:commons-math3:jar:3.5:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1467394552" target="1148172078"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1894826834" target="1467394552"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="650835126"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.guava:guava:jar:30.0-jre:compile (version selected from constraint [24.1.1,))</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1142006014"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.guava:failureaccess:jar:1.0.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="650835126" target="1142006014"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="745868137"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="650835126" target="745868137"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="362417934"><data key="d0"><y:ShapeNode><y:NodeLabel>org.checkerframework:checker-qual:jar:3.5.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="650835126" target="362417934"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1686386255"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.errorprone:error_prone_annotations:jar:2.3.4:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="650835126" target="1686386255"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="769354865"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.j2objc:j2objc-annotations:jar:1.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="650835126" target="769354865"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1894826834" target="650835126"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="1894826834"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="703665376"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:tsfile:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1817615535"><data key="d0"><y:ShapeNode><y:NodeLabel>ch.qos.logback:logback-classic:jar:1.1.11:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="698743076"><data key="d0"><y:ShapeNode><y:NodeLabel>ch.qos.logback:logback-core:jar:1.1.11:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1817615535" target="698743076"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="703665376" target="1817615535"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1600888965"><data key="d0"><y:ShapeNode><y:NodeLabel>org.xerial.snappy:snappy-java:jar:1.1.7.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="703665376" target="1600888965"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2115824028"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-io:commons-io:jar:2.5:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="703665376" target="2115824028"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="653766932"><data key="d0"><y:ShapeNode><y:NodeLabel>net.jpountz.lz4:lz4:jar:1.3.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="703665376" target="653766932"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="547160119"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.code.gson:gson:jar:2.8.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="703665376" target="547160119"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="703665376"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="586212137"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:flink-tsfile-connector:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="993640162"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.iotdb:hadoop-tsfile:jar:0.12.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="551405440"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-client:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1753868052"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-common:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1304803463"><data key="d0"><y:ShapeNode><y:NodeLabel>xmlenc:xmlenc:jar:0.52:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1304803463"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="998101363"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-httpclient:commons-httpclient:jar:3.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="998101363"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1968369755"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-codec:commons-codec:jar:1.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1968369755"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1380194466"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-net:commons-net:jar:3.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1380194466"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="841323501"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.servlet.jsp:jsp-api:jar:2.1:runtime</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="841323501"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>runtime</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1728457363"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-logging:commons-logging:jar:1.1.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1728457363"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="95735296"><data key="d0"><y:ShapeNode><y:NodeLabel>log4j:log4j:jar:1.2.17:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="95735296"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2001164060"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-configuration:commons-configuration:jar:1.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1776486626"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-digester:commons-digester:jar:1.8:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1063777791"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-beanutils:commons-beanutils:jar:1.7.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1776486626" target="1063777791"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="2001164060" target="1776486626"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="478214365"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-beanutils:commons-beanutils-core:jar:1.8.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="2001164060" target="478214365"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1753868052" target="2001164060"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1370665958"><data key="d0"><y:ShapeNode><y:NodeLabel>org.slf4j:slf4j-log4j12:jar:1.7.25:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1370665958"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="552015146"><data key="d0"><y:ShapeNode><y:NodeLabel>org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="552015146"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="540005572"><data key="d0"><y:ShapeNode><y:NodeLabel>org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="540005572"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="997361164"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.avro:avro:jar:1.7.4:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="2132487943"><data key="d0"><y:ShapeNode><y:NodeLabel>com.thoughtworks.paranamer:paranamer:jar:2.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="997361164" target="2132487943"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1753868052" target="997361164"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1733110667"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.protobuf:protobuf-java:jar:2.5.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1733110667"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="966416978"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-auth:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="376961419"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpclient:jar:4.2.5:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="817012565"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpcore:jar:4.2.4:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="376961419" target="817012565"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="966416978" target="376961419"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1051589563"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1427013366"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1051589563" target="1427013366"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2090630781"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1051589563" target="2090630781"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1483742860"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.directory.api:api-util:jar:1.0.0-M20:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1051589563" target="1483742860"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="966416978" target="1051589563"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="156321306"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.curator:curator-framework:jar:2.7.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="966416978" target="156321306"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1753868052" target="966416978"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="789475336"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.curator:curator-client:jar:2.7.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="789475336"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="813603842"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.curator:curator-recipes:jar:2.7.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="813603842"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1747087615"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1747087615"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1807780471"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.zookeeper:zookeeper:jar:3.4.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1753868052" target="1807780471"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="932325687"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.commons:commons-compress:jar:1.4.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1934114123"><data key="d0"><y:ShapeNode><y:NodeLabel>org.tukaani:xz:jar:1.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="932325687" target="1934114123"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1753868052" target="932325687"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="551405440" target="1753868052"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="144055893"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-hdfs:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1743437314"><data key="d0"><y:ShapeNode><y:NodeLabel>org.mortbay.jetty:jetty-util:jar:6.1.26:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="144055893" target="1743437314"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1100474457"><data key="d0"><y:ShapeNode><y:NodeLabel>io.netty:netty:jar:3.9.9.Final:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="144055893" target="1100474457"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1929848645"><data key="d0"><y:ShapeNode><y:NodeLabel>io.netty:netty-all:jar:4.1.42.Final:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="144055893" target="1929848645"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1272708038"><data key="d0"><y:ShapeNode><y:NodeLabel>xerces:xercesImpl:jar:2.9.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="2037601809"><data key="d0"><y:ShapeNode><y:NodeLabel>xml-apis:xml-apis:jar:1.3.04:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1272708038" target="2037601809"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="144055893" target="1272708038"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="123251782"><data key="d0"><y:ShapeNode><y:NodeLabel>org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="144055893" target="123251782"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="551405440" target="144055893"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1294962407"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1497258319"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="975069095"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-yarn-client:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1497258319" target="975069095"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2020015678"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1497258319" target="2020015678"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1294962407" target="1497258319"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1234116451"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1294962407" target="1234116451"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="551405440" target="1294962407"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1649464124"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-yarn-api:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="551405440" target="1649464124"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="712723382"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1705236425"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-yarn-common:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1416013849"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.servlet:servlet-api:jar:2.5:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1705236425" target="1416013849"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="818628762"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.jersey:jersey-core:jar:1.9:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1705236425" target="818628762"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1075676110"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.jersey:jersey-client:jar:1.9:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1705236425" target="1075676110"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="997919131"><data key="d0"><y:ShapeNode><y:NodeLabel>org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1705236425" target="997919131"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1522288781"><data key="d0"><y:ShapeNode><y:NodeLabel>org.codehaus.jackson:jackson-xc:jar:1.9.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1705236425" target="1522288781"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="712723382" target="1705236425"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="551405440" target="712723382"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="819545304"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="551405440" target="819545304"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="477541118"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.hadoop:hadoop-annotations:jar:2.7.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="551405440" target="477541118"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="993640162" target="551405440"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="586212137" target="993640162"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2141341498"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-java:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1197641827"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.commons:commons-lang3:jar:3.8.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="2141341498" target="1197641827"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="586212137" target="2141341498"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="586212137"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1030218707"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-clients_2.11:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="347035587"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-core:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="2035894779"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-annotations:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="347035587" target="2035894779"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="720060219"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-metrics-core:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="347035587" target="720060219"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="672147662"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-shaded-asm-7:jar:7.1-11.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="347035587" target="672147662"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1190097728"><data key="d0"><y:ShapeNode><y:NodeLabel>com.esotericsoftware.kryo:kryo:jar:2.24.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1976233207"><data key="d0"><y:ShapeNode><y:NodeLabel>com.esotericsoftware.minlog:minlog:jar:1.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1190097728" target="1976233207"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="103483282"><data key="d0"><y:ShapeNode><y:NodeLabel>org.objenesis:objenesis:jar:3.0.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1190097728" target="103483282"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="347035587" target="1190097728"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="802425281"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-collections:commons-collections:jar:3.2.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="347035587" target="802425281"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1030218707" target="347035587"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="303831560"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-runtime_2.11:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="806609384"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-queryable-state-client-java:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="806609384"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1851422703"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-hadoop-fs:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="1851422703"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1641017828"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-shaded-netty:jar:4.1.39.Final-11.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="1641017828"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="334592911"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-shaded-jackson:jar:2.10.1-11.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="334592911"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1019397304"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-shaded-zookeeper-3:jar:3.4.14-11.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="1019397304"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="18491840"><data key="d0"><y:ShapeNode><y:NodeLabel>org.javassist:javassist:jar:3.24.0-GA:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="18491840"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="532986070"><data key="d0"><y:ShapeNode><y:NodeLabel>org.scala-lang:scala-library:jar:2.11.12:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="532986070"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="124880290"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe.akka:akka-actor_2.11:jar:2.5.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="767321840"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe:config:jar:1.3.3:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="124880290" target="767321840"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2100829870"><data key="d0"><y:ShapeNode><y:NodeLabel>org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="124880290" target="2100829870"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="303831560" target="124880290"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1199573975"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe.akka:akka-stream_2.11:jar:2.5.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1280821776"><data key="d0"><y:ShapeNode><y:NodeLabel>org.reactivestreams:reactive-streams:jar:1.0.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1199573975" target="1280821776"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="34782860"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe:ssl-config-core_2.11:jar:0.3.7:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1071783182"><data key="d0"><y:ShapeNode><y:NodeLabel>org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.1.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="34782860" target="1071783182"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1199573975" target="34782860"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="303831560" target="1199573975"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="2021357462"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe.akka:akka-protobuf_2.11:jar:2.5.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="2021357462"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="168703427"><data key="d0"><y:ShapeNode><y:NodeLabel>com.typesafe.akka:akka-slf4j_2.11:jar:2.5.21:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="168703427"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="494865616"><data key="d0"><y:ShapeNode><y:NodeLabel>org.clapper:grizzled-slf4j_2.11:jar:1.3.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="494865616"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="844789788"><data key="d0"><y:ShapeNode><y:NodeLabel>com.github.scopt:scopt_2.11:jar:3.5.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="844789788"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="289304070"><data key="d0"><y:ShapeNode><y:NodeLabel>com.twitter:chill_2.11:jar:0.7.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1793450447"><data key="d0"><y:ShapeNode><y:NodeLabel>com.twitter:chill-java:jar:0.7.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="289304070" target="1793450447"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="303831560" target="289304070"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="261716431"><data key="d0"><y:ShapeNode><y:NodeLabel>org.lz4:lz4-java:jar:1.6.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="303831560" target="261716431"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1030218707" target="303831560"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1851947704"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:flink-optimizer_2.11:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1030218707" target="1851947704"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="214853420"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-cli:commons-cli:jar:1.3.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1030218707" target="214853420"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1231029475"><data key="d0"><y:ShapeNode><y:NodeLabel>org.slf4j:slf4j-api:jar:1.7.25:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1030218707" target="1231029475"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="234048257"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.code.findbugs:jsr305:jar:3.0.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1030218707" target="234048257"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1882802109"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.flink:force-shading:jar:1.11.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1030218707" target="1882802109"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="1030218707"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="254917009"><data key="d0"><y:ShapeNode><y:NodeLabel>junit:junit:jar:4.12:test</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1186984840"><data key="d0"><y:ShapeNode><y:NodeLabel>org.hamcrest:hamcrest-core:jar:1.3:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="254917009" target="1186984840"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="254917009"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1367544605"><data key="d0"><y:ShapeNode><y:NodeLabel>org.mockito:mockito-all:jar:1.10.19:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="926134772" target="1367544605"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1799201343"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.annotation:javax.annotation-api:jar:1.3.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="926134772" target="1799201343"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1774347256"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.xml.bind:jaxb-api:jar:2.4.0-b180725.0427:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1348009723"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.activation:javax.activation-api:jar:1.2.0:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1774347256" target="1348009723"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="1774347256"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="428475414"><data key="d0"><y:ShapeNode><y:NodeLabel>org.glassfish.jaxb:jaxb-runtime:jar:2.4.0-b180725.0644:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="522219842"><data key="d0"><y:ShapeNode><y:NodeLabel>org.glassfish.jaxb:txw2:jar:2.4.0-b180725.0644:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="428475414" target="522219842"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1703353597"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.istack:istack-commons-runtime:jar:3.0.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="428475414" target="1703353597"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1916766608"><data key="d0"><y:ShapeNode><y:NodeLabel>org.jvnet.staxex:stax-ex:jar:1.8:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="428475414" target="1916766608"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1004308853"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.xml.fastinfoset:FastInfoset:jar:1.2.14:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="428475414" target="1004308853"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="926134772" target="428475414"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>

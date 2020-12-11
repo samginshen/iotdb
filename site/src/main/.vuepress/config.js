@@ -76,7 +76,8 @@ var config = {
 						{ text: 'V0.11.x', link: '/UserGuide/V0.11.x/Get Started/QuickStart' },
 						{ text: 'V0.10.x', link: '/UserGuide/V0.10.x/Get Started/QuickStart' },
 						{ text: 'V0.9.x', link: '/UserGuide/V0.9.x/0-Get Started/1-QuickStart' },
-						{ text: 'V0.8.x', link: '/UserGuide/V0.8.x/0-Get Started/1-QuickStart'},
+						{ text: 'V' +
+								'.x', link: '/UserGuide/V0.8.x/0-Get Started/1-QuickStart'},
 					]
 				  },
 				  {
@@ -298,7 +299,7 @@ var config = {
 							['8-System Design/1-Hierarchy','Hierarchy'],
 							['8-System Design/2-Files','Files'],
 							['8-System Design/3-Writing Data on HDFS','Writing Data on HDFS'],
-							['8-System Design/4-Shared Nothing Cluster','Shared Nothing Cluster'],
+							['8-System Design/4-Shared Nothing Cluster','Shared Nothing Cluster']
 						]
 					},
 				],
@@ -522,7 +523,7 @@ var config = {
 							['Concept/Data Model and Terminology','Data Model and Terminology'],
 							['Concept/Data Type','Data Type'],
 							['Concept/Encoding','Encoding'],
-							['Concept/Compression','Compression']
+							['Concept/Compression','Compression'],
 							['Concept/SDT','SDT']
 						]
 					},
@@ -1137,7 +1138,7 @@ var config = {
 							['Concept/Data Model and Terminology','数据模型与技术'],
 							['Concept/Data Type','数据类型'],
 							['Concept/Encoding','编码方式'],
-							['Concept/Compression','压缩方式']
+							['Concept/Compression','压缩方式'],
 							['Concept/SDT','旋转门压缩']
 						]
 					},
