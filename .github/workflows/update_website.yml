@@ -3,12 +3,12 @@ name: Update website
 on:
   push:
     branches:
-      - master
+      - update_document
     paths:
       - 'docs/**'
     pull_request:
       branches:
-        - master
+        - update_document
       paths:
         - 'docs/**'
 jobs:
