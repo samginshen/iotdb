@@ -15,4 +15,4 @@ jobs:
       - name: Setting git account
         run: git config --global user.name "${{ secrets.GIT_USER }}"
       - name: Push to web-site Proj
-        run: mvn compile scm-publish:publish-scm -Dusername=${{ secrets.GIT_USER }} -Dpassword=${{ secrets.GIT_PASSWORD }} --file site/pom.xml
+        run: mvn compile scm-publish:publish-scm -Dusername=${{ secrets.GIT_USER }} -Dpassword=${{ secrets.GITHUB_TOKEN }} --file site/pom.xml
