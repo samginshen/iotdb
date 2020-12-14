@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Build with Maven
-        run: mvn compile --file site/pom.xml
+      - name: Setting git account
+        - run: git config --global user.name "${{ secrets.GIT_USER }}"
       - name: Push to web-site Proj
         run: mvn compile scm-publish:publish-scm -Dusername=samginshen -Dpassword=sagin0818 --file site/pom.xml
