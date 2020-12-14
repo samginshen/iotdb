@@ -6,7 +6,7 @@ on:
       - update_document
     paths:
       - 'docs/**'
-    pull_request:
+  pull_request:
       branches:
         - update_document
       paths:
