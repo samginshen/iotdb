@@ -15,4 +15,4 @@ jobs:
       - name: Build with Maven
         run: mvn compile --file site/pom.xml
       - name: Push to web-site Proj
-        run: mvn compile scm-publish:publish-scm -P compile-site
+        run: mvn compile scm-publish:publish-scm -Dusername=${{ secrets.GIT_USER }} -Dpassword=${{ secrets.GITHUB_PASSWORD }} --file site/pom.xml
