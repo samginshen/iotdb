@@ -343,3 +343,4 @@ see [Frequent Questions when Compiling the Source Code](https://iotdb.apache.org
 * Add friend: tietouqiao, and then we'll invite you to the group.
 
 see [Join the community](https://github.com/apache/iotdb/issues/1995) for more!
+yewysysysy
