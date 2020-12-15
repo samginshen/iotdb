@@ -137,8 +137,9 @@
         <javax.xml.bind.version>2.4.0-b180725.0427</javax.xml.bind.version>
         <felix.version>4.2.1</felix.version>
         <!-- URL of the ASF SonarQube server -->
+        <sonar.projectKey>samginshen_iotdb</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>apache</sonar.organization>
+        <sonar.organization>samginshen</sonar.organization>
         <!-- Exclude all generated code -->
         <sonar.exclusions>**/generated-sources</sonar.exclusions>
         <!-- By default, the argLine is empty-->
